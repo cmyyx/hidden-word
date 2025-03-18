@@ -33,6 +33,10 @@ export default {
         default: 'Copy',
         success: 'Copied!'
     },
+    clean: {
+        default: 'Clean Hidden Text',
+        success: 'Cleaned!'
+    },
     footer: {
         description: 'Hidden Text Tool - Hide secret messages in plain text'
     },

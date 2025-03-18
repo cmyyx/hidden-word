@@ -14,6 +14,11 @@ const props = defineProps({
   defaultText: {
     type: String,
     default: undefined
+  },
+  textToCopy: {
+    type: String,
+    required: false,
+    default: undefined
   }
 });
 
@@ -25,7 +30,8 @@ const buttonText = ref(defaultTextValue.value);
 
 const copyToClipboard = async () => {
   try {
-    await navigator.clipboard.writeText(store.outputText);
+    const textToWrite = props.textToCopy !== undefined ? props.textToCopy : store.outputText;
+    await navigator.clipboard.writeText(textToWrite);
     buttonText.value = successTextValue.value;
     copied.value = true;
 
@@ -40,11 +46,9 @@ const copyToClipboard = async () => {
 </script>
 
 <template>
-  <button
-      :class="copied ? 'bg-green-500 text-white' : 'bg-indigo-500 hover:bg-indigo-600 text-white'"
-      class="px-3 py-1.5 text-xs rounded-full transition-all duration-300 focus:outline-none font-medium shadow-sm flex items-center gap-1"
-      @click="copyToClipboard"
-  >
+  <button :class="copied ? 'bg-green-500 text-white' : 'bg-indigo-500 hover:bg-indigo-600 text-white'"
+          class="px-3 py-1.5 text-xs rounded-full transition-all duration-300 focus:outline-none font-medium shadow-sm flex items-center gap-1"
+          @click="copyToClipboard">
     <i :class="copied ? 'fa-solid fa-check' : 'fa-regular fa-copy'"></i>
     {{ buttonText }}
   </button>

@@ -33,6 +33,10 @@ export default {
         default: '复制',
         success: '已复制!'
     },
+    clean: {
+        default: '清除隐藏文本',
+        success: '已清除!'
+    },
     footer: {
         description: '隐藏文字工具 - 将秘密信息隐藏在普通文本中'
     },
