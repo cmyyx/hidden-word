@@ -6,8 +6,8 @@ export default {
         encode: '编码'
     },
     carrier: {
-        title: '载体文本',
-        placeholder: '输入或选择载体文本',
+        title: '原始文本',
+        placeholder: '输入或选择预设文本',
         presets: '预设文本'
     },
     emoji: {

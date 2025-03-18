@@ -6,8 +6,8 @@ export default {
         encode: 'Encode'
     },
     carrier: {
-        title: 'Carrier Text',
-        placeholder: 'Enter or select carrier text',
+        title: 'Original Text',
+        placeholder: 'Enter or select preset text',
         presets: 'Preset Text'
     },
     emoji: {
