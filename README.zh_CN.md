@@ -19,7 +19,7 @@
 
 ## 部署
 
-[![使用 EdgeOne Pages 部署](https://cdnstatic.tencentcs.com/edgeone/pages/deploy.svg)](https://edgeone.ai/pages/new?repository-url=https://github.com/Ackites/hidden-word)
+[![使用 EdgeOne Pages 部署](https://cdnstatic.tencentcs.com/edgeone/pages/deploy.svg)](https://edgeone.ai/pages/new?repository-url=https://github.com/Ackites/hidden-word&build-command=npm%20run%20build&output-directory=dist)
 
 ## 快速开始
 

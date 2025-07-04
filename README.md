@@ -21,7 +21,7 @@ A Unicode-based text digital watermarking tool for embedding invisible copyright
 
 ## Deployment
 
-[![Deploy with EdgeOne Pages](https://cdnstatic.tencentcs.com/edgeone/pages/deploy.svg)](https://edgeone.ai/pages/new?repository-url=https://github.com/Ackites/hidden-word)
+[![Deploy with EdgeOne Pages](https://cdnstatic.tencentcs.com/edgeone/pages/deploy.svg)](https://edgeone.ai/pages/new?repository-url=https://github.com/Ackites/hidden-word&build-command=npm%20run%20build&output-directory=dist)
 
 ## Quick Start
 
