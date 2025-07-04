@@ -17,6 +17,10 @@
 3. **内容验证**：在公开文本中嵌入验证信息，确保内容完整性
 4. **信息溯源**：识别和追踪数字内容的传播路径
 
+## 部署
+
+[![使用 EdgeOne Pages 部署](https://cdnstatic.tencentcs.com/edgeone/pages/deploy.svg)](https://edgeone.ai/pages/new?repository-url=https://github.com/Ackites/hidden-word)
+
 ## 快速开始
 
 ### 克隆仓库

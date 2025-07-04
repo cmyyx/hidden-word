@@ -19,6 +19,10 @@ A Unicode-based text digital watermarking tool for embedding invisible copyright
 3. **Content Verification**: Embed verification information in public texts to ensure content integrity
 4. **Information Tracing**: Identify and track the dissemination path of digital content
 
+## Deployment
+
+[![Deploy with EdgeOne Pages](https://cdnstatic.tencentcs.com/edgeone/pages/deploy.svg)](https://edgeone.ai/pages/new?repository-url=https://github.com/Ackites/hidden-word)
+
 ## Quick Start
 
 ### Clone Repository
